@@ -1,0 +1,20 @@
+name: download file
+
+on:
+  schedule:
+    - cron: "50 1 * * *"
+
+jobs:
+  download-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file
+        uses: suisei-cn/actions-download-file@v1.4.0
+        id: downloadfile
+        with:
+          url: "https://www.xrayvip.com/free.yaml"
+          tartget: public/
+          filename: config.yaml
+          overwrite: true
+          show-progress: true
+          retry-times: 3
