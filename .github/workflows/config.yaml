@@ -3,6 +3,7 @@ name: download file
 on:
   schedule:
     - cron: "0 2 * * *"
+  workflow_dispatch:
 
 jobs:
   download-file:
