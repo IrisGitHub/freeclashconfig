@@ -9,12 +9,35 @@ jobs:
   download-file:
     runs-on: ubuntu-latest
     steps:
-      - name: Download file
-        id: download-file
+      - id: repo
+        name: Repo Checkout
+        uses: actions/checkout@v2
+
+      - id: download
+        name: Download file
         uses: carlosperate/download-file-action@v2
         with:
           file-url: "https://www.xrayvip.com/free.yaml"
           location: ./public
           file-name: config.yaml
-      - name: Print the file path
-        run: echo "The file was downloaded to ${{ steps.download-file.outputs.file-path }}"
+
+      - id: path
+        name: Print the file path
+        run: echo "The file was downloaded to ${{ steps.download.outputs.file-path }}"
+
+      - id: commit
+        name: Commit files
+        run: git config --local user.name actions-user
+
+          git config --local user.email "actions@github.com"
+
+          git add *
+
+          git commit -am "GH ACTION Headlines $(date)"
+
+          git push origin main
+
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+
+          username: github-actions
