@@ -30,11 +30,11 @@ jobs:
         name: Print the file path
         run: echo "The file was downloaded to ${{ steps.download.outputs.file-path }}"
 
-      - uses: actions/checkout@v4
-        with:
-          path: main
-      - name: Push files
+      - id: push
+        name: Push files
+        working-directory: ${{github.workspace}}/main
         run: |
+          echo ${{ github.workspace }}
           git config --global user.name actions-user
           git config --global user.email "actions@github.com"
           git add *
