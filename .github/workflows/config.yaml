@@ -18,7 +18,7 @@ jobs:
         uses: carlosperate/download-file-action@v2
         with:
           file-url: "https://www.xrayvip.com/free.yaml"
-          location: ./public
+          location: public/
           file-name: config.yaml
 
       - id: path
@@ -27,17 +27,5 @@ jobs:
 
       - id: commit
         name: Commit files
-        run: git config --local user.name actions-user
-
-          git config --local user.email "actions@github.com"
-
-          git add *
-
-          git commit -am "GH ACTION Headlines $(date)"
-
-          git push origin main
-
-        env:
-          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-
-          username: github-actions
+        uses: zwaldowski/git-commit-action@v1
+      - run: echo "${{ steps.commit.outputs.sha }}"
