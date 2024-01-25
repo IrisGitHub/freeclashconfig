@@ -18,10 +18,6 @@ jobs:
         with:
           path: main
 
-      - id: pull
-        name: Pull latest changes
-        run: git pull
-
       - id: download
         name: Download file
         uses: carlosperate/download-file-action@v2
