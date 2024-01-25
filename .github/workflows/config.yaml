@@ -34,14 +34,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: git config user.name actions-user
-          git config user.email actions@github.com
+      - id: commit
+        name: Commit files
+        run: git config --local user.name actions-user
+
+          git config --local user.email "actions@github.com"
+
           git pull
-          git status
-          git add .
-          git commit -m "generated"
+
+          git add *
+
+          git commit -am "GH ACTION Headlines $(date)"
+
           git push origin main
+
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+
           username: github-actions
