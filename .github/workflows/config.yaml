@@ -4,14 +4,20 @@ on:
   schedule:
     - cron: "0 2 * * *"
   workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   download-file:
     runs-on: ubuntu-latest
     steps:
-      - id: repo
-        name: Repo Checkout
-        uses: actions/checkout@v2
+      - id: checkout
+        name: Repo checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
 
       - id: download
         name: Download file
@@ -25,7 +31,17 @@ jobs:
         name: Print the file path
         run: echo "The file was downloaded to ${{ steps.download.outputs.file-path }}"
 
-      - id: commit
-        name: Commit files
-        uses: zwaldowski/git-commit-action@v1
-      - run: echo "${{ steps.commit.outputs.sha }}"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: git config user.name actions-user
+          git config user.email actions@github.com
+          git pull
+          git status
+          git add .
+          git commit -m "generated"
+          git push origin main
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
