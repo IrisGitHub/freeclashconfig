@@ -10,12 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download file
-        uses: suisei-cn/actions-download-file@v1.4.0
-        id: downloadfile
+        id: download-file
+        uses: carlosperate/download-file-action@v2
         with:
-          url: "https://www.xrayvip.com/free.yaml"
-          tartget: public/
-          filename: config.yaml
-          overwrite: true
-          show-progress: true
-          retry-times: 3
+          file-url: "https://www.xrayvip.com/free.yaml"
+          location: ./public
+          file-name: config.yaml
+      - name: Print the file path
+        run: echo "The file was downloaded to ${{ steps.download-file.outputs.file-path }}"
