@@ -29,16 +29,25 @@ jobs:
         name: Print the file path
         run: echo "The file was downloaded to ${{ steps.download.outputs.file-path }}"
 
+      - id: verify-changed-files
+        name: Verify changed files
+        uses: tj-actions/verify-changed-files@v17
+        with:
+          path: main
+
       - id: push
         name: Push files
         working-directory: ${{github.workspace}}/main
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
+          CHANGED_FILES: ${{ steps.verify-changed-files.outputs.changed_files }}
         run: |
           echo ${{ github.workspace }}
+          echo "Changed files: $CHANGED_FILES"
           git config --global user.name actions-user
           git config --global user.email "actions@github.com"
           git add *
           git commit -am "GH ACTION Headlines $(date)"
           git push origin main
-        env:
-          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-          username: github-actions
