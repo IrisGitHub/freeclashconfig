@@ -4,7 +4,8 @@ permissions: write-all
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    # UTC时间 4pm -> china 时间 00am
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 jobs:
