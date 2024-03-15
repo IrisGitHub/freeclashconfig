@@ -5,171 +5,156 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 节点日期：03-14 08:05, server: 104.21.225.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai08", headers: {Host: a.prapt1.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】50, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】46, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】18, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】55, server: 151.101.193.57, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】51, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
-  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58, server: 23.227.39.24, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】2, server: 172.67.177.106, port: 2082, type: vmess, uuid: 4d68da82-e8d0-4eaa-aec9-0df4a23e1a04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: freezhang.sanfen002.top}}}
-  - {name: 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】102, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
-  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25, server: 23.227.38.22, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】33, server: yh3.freeh1.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】193, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】30, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】39, server: 162.159.11.32, port: 2052, type: vmess, uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】38, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】29, server: 104.19.250.132, port: 2052, type: vmess, uuid: 8e0fc6e0-1313-4767-b51c-5506680d534e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】48, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: championship-bidding-oxygen-brochure.trycloudflare.com}}}
+  - {name: 🇯🇵 节点日期：03-15 18:05, server: 104.21.225.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai08", headers: {Host: a.prapt1.ir}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】168, server: 104.21.225.9, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】183, server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】52, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】110, server: 104.21.227.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
-  - {name: 阿联酋【付费推荐：https://jdyvip.link/】196, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】11, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】198, server: 104.21.239.79, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】41, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】174, server: 104.21.225.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】8, server: 104.21.230.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】63, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】115, server: 104.21.239.95, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】202, server: 172.67.66.46, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】30, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】46, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}}
+  - {name: 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】193, server: us65.netfilx.live, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】51, server: 104.21.63.52, port: 80, type: vmess, uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us65.netfilx.live}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】22, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】48, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: championship-bidding-oxygen-brochure.trycloudflare.com}}}
+  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58, server: 23.227.39.24, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】197, server: russia.com, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇫🇷 法国【付费推荐：https://jdyvip.link/】60, server: 146.59.102.109, port: 35230, type: ss, cipher: aes-256-gcm, password: lSreYGyaPfCsJQWf}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】32, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
-  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】81, server: 104.21.236.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】172, server: kr2.indianonlinejob2.com, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: abb73d1f-7dce-4f17-ada4-8d1413f2ed4a}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】6, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】165, server: 104.21.239.96, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25, server: 23.227.38.22, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
+  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】41, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】52, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】11, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】18, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】183, server: yh1.freeh1.xyz, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】33, server: yh3.freeh1.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】50, server: fastly.alipay.ovh, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】55, server: 151.101.193.57, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】202, server: 172.67.66.46, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】10, server: 104.21.228.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】3, server: fbi.gov, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】99, server: 104.21.229.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】37, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】54, server: fastly.com, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】81, server: 104.21.236.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai08", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】44, server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】71, server: 104.21.225.6, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇫🇷 法国【付费推荐：https://jdyvip.link/】60, server: 146.59.102.109, port: 35230, type: ss, cipher: aes-256-gcm, password: lSreYGyaPfCsJQWf}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】63, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】54, server: fastly.com, port: 80, type: vmess, uuid: 66ccb11f-75a7-4282-8a60-31fed447401d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】32, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】102, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】3, server: fbi.gov, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】24, server: 104.21.20.19, port: 80, type: vmess, uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de2.xv2ray.net}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】194, server: 104.21.222.208, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】6, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】115, server: 104.21.239.95, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】8, server: 104.21.230.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】174, server: 104.21.225.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】165, server: 104.21.239.96, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】110, server: 104.21.227.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】99, server: 104.21.229.47, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】142, server: 104.21.225.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
   - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】181, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】44, server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】194, server: 104.21.222.208, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】37, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 阿联酋【付费推荐：https://jdyvip.link/】196, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 节点日期：03-14 08:05
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】39
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】38
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇯🇵 节点日期：03-15 18:05
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】168
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
-      - 阿联酋【付费推荐：https://jdyvip.link/】196
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】198
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
+      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】22
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】197
-      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】172
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】71
+      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】24
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】142
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】181
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
+      - 阿联酋【付费推荐：https://jdyvip.link/】196
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 节点日期：03-14 08:05
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】39
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】38
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇯🇵 节点日期：03-15 18:05
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】168
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
-      - 阿联酋【付费推荐：https://jdyvip.link/】196
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】198
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
+      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】22
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】197
-      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】172
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】71
+      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】24
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】142
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】181
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
+      - 阿联酋【付费推荐：https://jdyvip.link/】196
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -187,57 +172,52 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 节点日期：03-14 08:05
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】39
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】38
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】29
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇯🇵 节点日期：03-15 18:05
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】168
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
-      - 阿联酋【付费推荐：https://jdyvip.link/】196
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】198
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】30
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】46
+      - 🇳🇱 荷兰【付费推荐：https://jdyvip.link/】180
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】193
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】51
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】22
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】48
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】58
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】197
-      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
-      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】172
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】25
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】41
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】52
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】11
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】18
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】183
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】33
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】50
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】55
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】202
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】81
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】71
+      - 🇫🇷 法国【付费推荐：https://jdyvip.link/】60
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】63
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】54
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】32
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】102
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】3
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】24
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇦 加拿大【付费推荐：https://jdyvip.link/】57
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】6
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】115
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】8
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】174
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】165
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】110
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】99
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】142
       - 🇺🇲 美国【付费推荐：https://jdyvip.link/】181
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】44
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】194
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】37
+      - 阿联酋【付费推荐：https://jdyvip.link/】196
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
