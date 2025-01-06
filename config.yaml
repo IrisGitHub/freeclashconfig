@@ -5,126 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 节点日期：01-05, server: series-a2-mec.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
-  - {name: 中国【付费推荐：https://a0a.xyz】16, server: us1.awslcn.info, port: 25256, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}}
-  - {name: 俄罗斯【付费推荐：https://a0a.xyz】94, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 日本【付费推荐：https://a0a.xyz】86, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: my01.trojanyyds.xyz}
-  - {name: 美国【付费推荐：https://a0a.xyz】32, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz}
-  - {name: 美国【付费推荐：https://a0a.xyz】15, server: 104.26.9.227, port: 443, type: trojan, password: b80Iy90Fma, sni: usa03.rtx.al, network: ws, ws-opts: {path: /cfyyds, headers: {Host: usa03.rtx.al}}}
-  - {name: 中国【付费推荐：https://a0a.xyz】100, server: cm1.awslcn.info, port: 25216, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
-  - {name: 俄罗斯【付费推荐：https://a0a.xyz】53, server: social-bream.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: social-bream.boa152.lol}
-  - {name: 中国【付费推荐：https://a0a.xyz】54, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本【付费推荐：https://a0a.xyz】80, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz}
-  - {name: 法国【付费推荐：https://a0a.xyz】109, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: 日本【付费推荐：https://a0a.xyz】22, server: de01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8}
-  - {name: 波兰【付费推荐：https://a0a.xyz】44, server: 91.206.179.179, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: holy-seahorse.boa152.lol}
-  - {name: 中国【付费推荐：https://a0a.xyz】1, server: cm.awslcn.info, port: 25216, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
-  - {name: 美国【付费推荐：https://a0a.xyz】45, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz}
-  - {name: 美国【付费推荐：https://a0a.xyz】98, server: 23.88.37.31, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LuxyNetBot}
-  - {name: 中国【付费推荐：https://a0a.xyz】65, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 匈牙利【付费推荐：https://a0a.xyz】64, server: profound-elk.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: profound-elk.boa152.lol}
+  - {name: 节点日期：01-06, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
   - {name: 匈牙利【付费推荐：https://a0a.xyz】84, server: 109.61.16.83, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: profound-elk.boa152.lol}
-  - {name: 美国【付费推荐：https://a0a.xyz】105, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us02.trojanyyds.xyz}
-  - {name: 伊朗【付费推荐：https://a0a.xyz】8, server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【付费推荐：https://a0a.xyz】20, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国【付费推荐：https://a0a.xyz】68, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg01.trojanyyds.xyz}
+  - {name: 匈牙利【付费推荐：https://a0a.xyz】64, server: profound-elk.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: profound-elk.boa152.lol}
+  - {name: 韩国【付费推荐：https://a0a.xyz】71, server: 132.145.94.80, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: yournextcareerstep.online}
   - {name: 中国【付费推荐：https://a0a.xyz】3, server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
+  - {name: 波兰【付费推荐：https://a0a.xyz】44, server: 91.206.179.179, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: holy-seahorse.boa152.lol}
+  - {name: 波兰【付费推荐：https://a0a.xyz】38, server: holy-seahorse.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: holy-seahorse.boa152.lol}
   - {name: 匈牙利【付费推荐：https://a0a.xyz】85, server: boss-hound.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: boss-hound.boa152.lol}
   - {name: 保加利亚【付费推荐：https://a0a.xyz】95, server: concrete-buzzard.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: concrete-buzzard.boa152.lol}
-  - {name: 法国【付费推荐：https://a0a.xyz】108, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: 美国【付费推荐：https://a0a.xyz】62, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz}
-  - {name: 美国【付费推荐：https://a0a.xyz】78, server: series-a2-me.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 美国【付费推荐：https://a0a.xyz】72, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz}
-  - {name: 韩国【付费推荐：https://a0a.xyz】71, server: 132.145.94.80, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: yournextcareerstep.online}
   - {name: 美国【付费推荐：https://a0a.xyz】101, server: apple.slumbo.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LuxyNetBot}
-  - {name: 美国【付费推荐：https://a0a.xyz】66, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz}
-  - {name: 波兰【付费推荐：https://a0a.xyz】38, server: holy-seahorse.boa152.lol, port: 443, type: trojan, password: !<str> 3723507166611775488, sni: holy-seahorse.boa152.lol}
-  - {name: 美国【付费推荐：https://a0a.xyz】104, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: in01.trojanyyds.xyz}
-  - {name: 美国【付费推荐：https://a0a.xyz】58, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8}
+  - {name: 美国【付费推荐：https://a0a.xyz】98, server: 23.88.37.31, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LuxyNetBot}
+  - {name: 法国【付费推荐：https://a0a.xyz】109, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
+  - {name: 俄罗斯【付费推荐：https://a0a.xyz】94, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 伊朗【付费推荐：https://a0a.xyz】8, server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 节点日期：01-05
-      - 中国【付费推荐：https://a0a.xyz】16
-      - 俄罗斯【付费推荐：https://a0a.xyz】94
-      - 日本【付费推荐：https://a0a.xyz】86
-      - 美国【付费推荐：https://a0a.xyz】32
-      - 美国【付费推荐：https://a0a.xyz】15
-      - 中国【付费推荐：https://a0a.xyz】100
-      - 俄罗斯【付费推荐：https://a0a.xyz】53
-      - 中国【付费推荐：https://a0a.xyz】54
-      - 日本【付费推荐：https://a0a.xyz】80
-      - 法国【付费推荐：https://a0a.xyz】109
-      - 日本【付费推荐：https://a0a.xyz】22
-      - 波兰【付费推荐：https://a0a.xyz】44
-      - 中国【付费推荐：https://a0a.xyz】1
-      - 美国【付费推荐：https://a0a.xyz】45
-      - 美国【付费推荐：https://a0a.xyz】98
-      - 中国【付费推荐：https://a0a.xyz】65
-      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 节点日期：01-06
       - 匈牙利【付费推荐：https://a0a.xyz】84
-      - 美国【付费推荐：https://a0a.xyz】105
-      - 伊朗【付费推荐：https://a0a.xyz】8
-      - 中国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】68
+      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 韩国【付费推荐：https://a0a.xyz】71
       - 中国【付费推荐：https://a0a.xyz】3
+      - 波兰【付费推荐：https://a0a.xyz】44
+      - 波兰【付费推荐：https://a0a.xyz】38
       - 匈牙利【付费推荐：https://a0a.xyz】85
       - 保加利亚【付费推荐：https://a0a.xyz】95
-      - 法国【付费推荐：https://a0a.xyz】108
-      - 美国【付费推荐：https://a0a.xyz】62
-      - 美国【付费推荐：https://a0a.xyz】78
-      - 美国【付费推荐：https://a0a.xyz】72
-      - 韩国【付费推荐：https://a0a.xyz】71
       - 美国【付费推荐：https://a0a.xyz】101
-      - 美国【付费推荐：https://a0a.xyz】66
-      - 波兰【付费推荐：https://a0a.xyz】38
-      - 美国【付费推荐：https://a0a.xyz】104
-      - 美国【付费推荐：https://a0a.xyz】58
+      - 美国【付费推荐：https://a0a.xyz】98
+      - 法国【付费推荐：https://a0a.xyz】109
+      - 俄罗斯【付费推荐：https://a0a.xyz】94
+      - 伊朗【付费推荐：https://a0a.xyz】8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点日期：01-05
-      - 中国【付费推荐：https://a0a.xyz】16
-      - 俄罗斯【付费推荐：https://a0a.xyz】94
-      - 日本【付费推荐：https://a0a.xyz】86
-      - 美国【付费推荐：https://a0a.xyz】32
-      - 美国【付费推荐：https://a0a.xyz】15
-      - 中国【付费推荐：https://a0a.xyz】100
-      - 俄罗斯【付费推荐：https://a0a.xyz】53
-      - 中国【付费推荐：https://a0a.xyz】54
-      - 日本【付费推荐：https://a0a.xyz】80
-      - 法国【付费推荐：https://a0a.xyz】109
-      - 日本【付费推荐：https://a0a.xyz】22
-      - 波兰【付费推荐：https://a0a.xyz】44
-      - 中国【付费推荐：https://a0a.xyz】1
-      - 美国【付费推荐：https://a0a.xyz】45
-      - 美国【付费推荐：https://a0a.xyz】98
-      - 中国【付费推荐：https://a0a.xyz】65
-      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 节点日期：01-06
       - 匈牙利【付费推荐：https://a0a.xyz】84
-      - 美国【付费推荐：https://a0a.xyz】105
-      - 伊朗【付费推荐：https://a0a.xyz】8
-      - 中国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】68
+      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 韩国【付费推荐：https://a0a.xyz】71
       - 中国【付费推荐：https://a0a.xyz】3
+      - 波兰【付费推荐：https://a0a.xyz】44
+      - 波兰【付费推荐：https://a0a.xyz】38
       - 匈牙利【付费推荐：https://a0a.xyz】85
       - 保加利亚【付费推荐：https://a0a.xyz】95
-      - 法国【付费推荐：https://a0a.xyz】108
-      - 美国【付费推荐：https://a0a.xyz】62
-      - 美国【付费推荐：https://a0a.xyz】78
-      - 美国【付费推荐：https://a0a.xyz】72
-      - 韩国【付费推荐：https://a0a.xyz】71
       - 美国【付费推荐：https://a0a.xyz】101
-      - 美国【付费推荐：https://a0a.xyz】66
-      - 波兰【付费推荐：https://a0a.xyz】38
-      - 美国【付费推荐：https://a0a.xyz】104
-      - 美国【付费推荐：https://a0a.xyz】58
+      - 美国【付费推荐：https://a0a.xyz】98
+      - 法国【付费推荐：https://a0a.xyz】109
+      - 俄罗斯【付费推荐：https://a0a.xyz】94
+      - 伊朗【付费推荐：https://a0a.xyz】8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,42 +76,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点日期：01-05
-      - 中国【付费推荐：https://a0a.xyz】16
-      - 俄罗斯【付费推荐：https://a0a.xyz】94
-      - 日本【付费推荐：https://a0a.xyz】86
-      - 美国【付费推荐：https://a0a.xyz】32
-      - 美国【付费推荐：https://a0a.xyz】15
-      - 中国【付费推荐：https://a0a.xyz】100
-      - 俄罗斯【付费推荐：https://a0a.xyz】53
-      - 中国【付费推荐：https://a0a.xyz】54
-      - 日本【付费推荐：https://a0a.xyz】80
-      - 法国【付费推荐：https://a0a.xyz】109
-      - 日本【付费推荐：https://a0a.xyz】22
-      - 波兰【付费推荐：https://a0a.xyz】44
-      - 中国【付费推荐：https://a0a.xyz】1
-      - 美国【付费推荐：https://a0a.xyz】45
-      - 美国【付费推荐：https://a0a.xyz】98
-      - 中国【付费推荐：https://a0a.xyz】65
-      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 节点日期：01-06
       - 匈牙利【付费推荐：https://a0a.xyz】84
-      - 美国【付费推荐：https://a0a.xyz】105
-      - 伊朗【付费推荐：https://a0a.xyz】8
-      - 中国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】68
+      - 匈牙利【付费推荐：https://a0a.xyz】64
+      - 韩国【付费推荐：https://a0a.xyz】71
       - 中国【付费推荐：https://a0a.xyz】3
+      - 波兰【付费推荐：https://a0a.xyz】44
+      - 波兰【付费推荐：https://a0a.xyz】38
       - 匈牙利【付费推荐：https://a0a.xyz】85
       - 保加利亚【付费推荐：https://a0a.xyz】95
-      - 法国【付费推荐：https://a0a.xyz】108
-      - 美国【付费推荐：https://a0a.xyz】62
-      - 美国【付费推荐：https://a0a.xyz】78
-      - 美国【付费推荐：https://a0a.xyz】72
-      - 韩国【付费推荐：https://a0a.xyz】71
       - 美国【付费推荐：https://a0a.xyz】101
-      - 美国【付费推荐：https://a0a.xyz】66
-      - 波兰【付费推荐：https://a0a.xyz】38
-      - 美国【付费推荐：https://a0a.xyz】104
-      - 美国【付费推荐：https://a0a.xyz】58
+      - 美国【付费推荐：https://a0a.xyz】98
+      - 法国【付费推荐：https://a0a.xyz】109
+      - 俄罗斯【付费推荐：https://a0a.xyz】94
+      - 伊朗【付费推荐：https://a0a.xyz】8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
