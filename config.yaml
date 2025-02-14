@@ -5,78 +5,69 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 节点日期：02-13, server: 45.140.88.118, port: 8443, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: agepq.ambercc.filegear-sg.me}}}
-  - {name: 中国【付费推荐：https://socks.news】2, server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com, port: 52149, type: ss, cipher: chacha20-ietf-poly1305, password: 7c28b43c-41c4-4af1-81c4-48690133d1cd}
-  - {name: 未知【付费推荐：https://socks.news】3, server: naiu-sg.05vr9nyqg5.download, port: 13028, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 比利时【付费推荐：https://socks.news】4, server: 192.71.249.146, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 中国【付费推荐：https://socks.news】5, server: bj.xissyun.com, port: 46595, type: ss, cipher: aes-128-gcm, password: e2c62a73-3132-48a6-a020-25c3ae0d8af2}
-  - {name: 中国【付费推荐：https://socks.news】6, server: lbso.bnnodeservice.com, port: 32005, type: trojan, password: d0cfea6c-2052-4add-aef5-501a4714d2f8, sni: cert.bitbyte.one}
-  - {name: 美国【付费推荐：https://socks.news】7, server: 198.41.193.26, port: 443, type: vmess, uuid: dc31ac4f-5e4e-4302-89bd-aed9b88ee993, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessus01.trevely.us.kg, headers: {Host: vmessus01.trevely.us.kg}}}
-  - {name: 美国【付费推荐：https://socks.news】8, server: 3.12.232.177, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 未知【付费推荐：https://socks.news】9, server: naiu-other.05vr9nyqg5.download, port: 13036, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 美国【付费推荐：https://socks.news】10, server: 192.227.231.56, port: 15392, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: agepq.ambercc.filegear-sg.me}}}
-  - {name: 美国【付费推荐：https://socks.news】11, server: 151.101.0.155, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 美国【付费推荐：https://socks.news】12, server: 151.101.2.165, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 美国【付费推荐：https://socks.news】13, server: join.ISVvpn.fastly80-3.hosting-ip.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 美国【付费推荐：https://socks.news】14, server: plex.com, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 中国【付费推荐：https://socks.news】15, server: 45.250.184.183, port: 6181, type: ss, cipher: chacha20-ietf-poly1305, password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3}
-  - {name: 立陶宛【付费推荐：https://socks.news】16, server: 147.78.1.27, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 中国【付费推荐：https://socks.news】17, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 美国【付费推荐：https://socks.news】18, server: 151.101.194.133, port: 80, type: vmess, uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: telegram-isvvpn.ir}}}
-  - {name: 未知【付费推荐：https://socks.news】19, server: naiu-jp.05vr9nyqg5.download, port: 13011, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 未知【付费推荐：https://socks.news】20, server: naiu-us.05vr9nyqg5.download, port: 13019, type: trojan, password: dc15d997-8b26-4294-870e-c90a5784dca4, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: 节点日期：02-14, server: 192.71.249.146, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 中国【付费推荐：https://socks.news】2, server: AZHJ001.dmak.cyou, port: 20776, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【付费推荐：https://socks.news】3, server: AZHJ.dmak.cyou, port: 20800, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【付费推荐：https://socks.news】4, server: AZHJ001.dmak.cyou, port: 20965, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国【付费推荐：https://socks.news】5, server: 38.114.123.245, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 中国【付费推荐：https://socks.news】6, server: 45.250.184.183, port: 6181, type: ss, cipher: chacha20-ietf-poly1305, password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3}
+  - {name: 波兰【付费推荐：https://socks.news】7, server: 91.149.239.70, port: 443, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: agepq.ambercc.filegear-sg.me}}}
+  - {name: 加拿大【付费推荐：https://socks.news】8, server: 15.223.8.202, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 乌克兰【付费推荐：https://socks.news】9, server: 85.90.194.160, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: awaited-chicken.adder289.quest}
+  - {name: 中国【付费推荐：https://socks.news】10, server: AZHJ.dmak.cyou, port: 20803, type: vmess, uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9, alterId: 0, cipher: auto, tls: false}
+  - {name: 乌克兰【付费推荐：https://socks.news】11, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5}
+  - {name: 保加利亚【付费推荐：https://socks.news】12, server: 149.34.244.72, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 南非【付费推荐：https://socks.news】13, server: 129.232.134.112, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 美国【付费推荐：https://socks.news】14, server: 154.26.177.9, port: 443, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: agepq.ambercc.filegear-sg.me}}}
+  - {name: 澳大利亚【付费推荐：https://socks.news】15, server: useful-jennet.shiner427.skin, port: 443, type: trojan, password: !<str> 65086441068973800}
+  - {name: 美国【付费推荐：https://socks.news】16, server: www.visa.com.tw, port: 443, type: vmess, uuid: c6feb69b-a42e-4dc1-8d33-834a712b2505, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vmess-argo?ed=2048", headers: {Host: sub-bike-pubs-industries.trycloudflare.com}}}
+  - {name: 美国【付费推荐：https://socks.news】17, server: 154.26.176.94, port: 8443, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, network: ws, ws-opts: {path: /, headers: {Host: agepq.ambercc.filegear-sg.me}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 节点日期：02-13
+      - 节点日期：02-14
       - 中国【付费推荐：https://socks.news】2
-      - 未知【付费推荐：https://socks.news】3
-      - 比利时【付费推荐：https://socks.news】4
-      - 中国【付费推荐：https://socks.news】5
+      - 中国【付费推荐：https://socks.news】3
+      - 中国【付费推荐：https://socks.news】4
+      - 美国【付费推荐：https://socks.news】5
       - 中国【付费推荐：https://socks.news】6
-      - 美国【付费推荐：https://socks.news】7
-      - 美国【付费推荐：https://socks.news】8
-      - 未知【付费推荐：https://socks.news】9
-      - 美国【付费推荐：https://socks.news】10
-      - 美国【付费推荐：https://socks.news】11
-      - 美国【付费推荐：https://socks.news】12
-      - 美国【付费推荐：https://socks.news】13
+      - 波兰【付费推荐：https://socks.news】7
+      - 加拿大【付费推荐：https://socks.news】8
+      - 乌克兰【付费推荐：https://socks.news】9
+      - 中国【付费推荐：https://socks.news】10
+      - 乌克兰【付费推荐：https://socks.news】11
+      - 保加利亚【付费推荐：https://socks.news】12
+      - 南非【付费推荐：https://socks.news】13
       - 美国【付费推荐：https://socks.news】14
-      - 中国【付费推荐：https://socks.news】15
-      - 立陶宛【付费推荐：https://socks.news】16
-      - 中国【付费推荐：https://socks.news】17
-      - 美国【付费推荐：https://socks.news】18
-      - 未知【付费推荐：https://socks.news】19
-      - 未知【付费推荐：https://socks.news】20
+      - 澳大利亚【付费推荐：https://socks.news】15
+      - 美国【付费推荐：https://socks.news】16
+      - 美国【付费推荐：https://socks.news】17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点日期：02-13
+      - 节点日期：02-14
       - 中国【付费推荐：https://socks.news】2
-      - 未知【付费推荐：https://socks.news】3
-      - 比利时【付费推荐：https://socks.news】4
-      - 中国【付费推荐：https://socks.news】5
+      - 中国【付费推荐：https://socks.news】3
+      - 中国【付费推荐：https://socks.news】4
+      - 美国【付费推荐：https://socks.news】5
       - 中国【付费推荐：https://socks.news】6
-      - 美国【付费推荐：https://socks.news】7
-      - 美国【付费推荐：https://socks.news】8
-      - 未知【付费推荐：https://socks.news】9
-      - 美国【付费推荐：https://socks.news】10
-      - 美国【付费推荐：https://socks.news】11
-      - 美国【付费推荐：https://socks.news】12
-      - 美国【付费推荐：https://socks.news】13
+      - 波兰【付费推荐：https://socks.news】7
+      - 加拿大【付费推荐：https://socks.news】8
+      - 乌克兰【付费推荐：https://socks.news】9
+      - 中国【付费推荐：https://socks.news】10
+      - 乌克兰【付费推荐：https://socks.news】11
+      - 保加利亚【付费推荐：https://socks.news】12
+      - 南非【付费推荐：https://socks.news】13
       - 美国【付费推荐：https://socks.news】14
-      - 中国【付费推荐：https://socks.news】15
-      - 立陶宛【付费推荐：https://socks.news】16
-      - 中国【付费推荐：https://socks.news】17
-      - 美国【付费推荐：https://socks.news】18
-      - 未知【付费推荐：https://socks.news】19
-      - 未知【付费推荐：https://socks.news】20
+      - 澳大利亚【付费推荐：https://socks.news】15
+      - 美国【付费推荐：https://socks.news】16
+      - 美国【付费推荐：https://socks.news】17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,26 +85,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点日期：02-13
+      - 节点日期：02-14
       - 中国【付费推荐：https://socks.news】2
-      - 未知【付费推荐：https://socks.news】3
-      - 比利时【付费推荐：https://socks.news】4
-      - 中国【付费推荐：https://socks.news】5
+      - 中国【付费推荐：https://socks.news】3
+      - 中国【付费推荐：https://socks.news】4
+      - 美国【付费推荐：https://socks.news】5
       - 中国【付费推荐：https://socks.news】6
-      - 美国【付费推荐：https://socks.news】7
-      - 美国【付费推荐：https://socks.news】8
-      - 未知【付费推荐：https://socks.news】9
-      - 美国【付费推荐：https://socks.news】10
-      - 美国【付费推荐：https://socks.news】11
-      - 美国【付费推荐：https://socks.news】12
-      - 美国【付费推荐：https://socks.news】13
+      - 波兰【付费推荐：https://socks.news】7
+      - 加拿大【付费推荐：https://socks.news】8
+      - 乌克兰【付费推荐：https://socks.news】9
+      - 中国【付费推荐：https://socks.news】10
+      - 乌克兰【付费推荐：https://socks.news】11
+      - 保加利亚【付费推荐：https://socks.news】12
+      - 南非【付费推荐：https://socks.news】13
       - 美国【付费推荐：https://socks.news】14
-      - 中国【付费推荐：https://socks.news】15
-      - 立陶宛【付费推荐：https://socks.news】16
-      - 中国【付费推荐：https://socks.news】17
-      - 美国【付费推荐：https://socks.news】18
-      - 未知【付费推荐：https://socks.news】19
-      - 未知【付费推荐：https://socks.news】20
+      - 澳大利亚【付费推荐：https://socks.news】15
+      - 美国【付费推荐：https://socks.news】16
+      - 美国【付费推荐：https://socks.news】17
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
