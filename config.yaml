@@ -5,78 +5,363 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 节点日期：03-28, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】5, server: 120.232.150.248, port: 11008, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be}
-  - {name: 中国【机场推荐：https://socks.news】38, server: 183.232.229.164, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ee19fceb-cedc-4832-b460-fccf24fdc8be}
-  - {name: 中国【机场推荐：https://socks.news】17, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83}
-  - {name: 中国【机场推荐：https://socks.news】33, server: 120.232.153.123, port: 51052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】7, server: 120.232.153.40, port: 34042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】26, server: 120.232.153.40, port: 51182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】30, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】19, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】32, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83}
-  - {name: 中国【机场推荐：https://socks.news】29, server: 183.236.51.38, port: 55754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】21, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】6, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】2, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】11, server: 120.198.71.214, port: 34093, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】43, server: vt-bana2-cn-11.ghpgwqswodgzv.com, port: 40021, type: trojan, password: a38c9e28-9960-4e31-9f18-ed2495a756aa, sni: vt-bana2-cn-11.ghpgwqswodgzv.com, network: ws, ws-opts: {path: /dl_media, headers: {Host: vt-bana2-cn-11.ghpgwqswodgzv.com}}}
+  - {name: 节点日期：03-30, server: 185.176.26.209, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】2, server: cm.awslcn.info, port: 25216, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 美国【机场推荐：https://socks.news】3, server: s4.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.8.3, headers: {Host: 100-116-85-183.s4.db-link02.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】4, server: 188.114.97.210, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】5, server: 183.236.51.38, port: 56901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】6, server: cm1.awslcn.info, port: 25285, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
+  - {name: 巴西【机场推荐：https://socks.news】7, server: 188.114.99.183, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 美国【机场推荐：https://socks.news】8, server: 104.21.112.1, port: 443, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: us7-03.890624.xyz}}}
+  - {name: 中国【机场推荐：https://socks.news】9, server: cm1.awslcn.info, port: 25258, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
+  - {name: 西班牙【机场推荐：https://socks.news】10, server: 185.238.228.41, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】11, server: 188.114.96.3, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 美国【机场推荐：https://socks.news】12, server: 1S.890689.XyZ, port: 80, type: vmess, uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /lsUVr8VBxF4ylXngZ, headers: {Host: 1S.890689.XyZ}}}
+  - {name: 俄罗斯【机场推荐：https://socks.news】13, server: 193.9.49.89, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 卢森堡【机场推荐：https://socks.news】14, server: 94.242.230.119, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 俄罗斯【机场推荐：https://socks.news】15, server: 195.133.5.127, port: 23036, type: vmess, uuid: bf99d413-f3d3-49f6-80cd-7cefda1ed150, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 英国【机场推荐：https://socks.news】16, server: 188.244.122.249, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 美国【机场推荐：https://socks.news】17, server: 172.67.220.10, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linja05.hwcar.sbs}}}
   - {name: 中国【机场推荐：https://socks.news】18, server: zf1.10101251.xyz, port: 41705, type: ss, cipher: aes-256-gcm, password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f}
-  - {name: 中国【机场推荐：https://socks.news】42, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 中国【机场推荐：https://socks.news】41, server: hk01.x.quickcht3.club, port: 52611, type: ss, cipher: chacha20-ietf-poly1305, password: 2be0c954-4291-45ea-b47d-ca713180550b}
-  - {name: 中国【机场推荐：https://socks.news】28, server: 120.198.71.216, port: 40059, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 巴西【机场推荐：https://socks.news】19, server: 188.114.97.1, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】20, server: cm.awslcn.info, port: 25228, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】21, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 西班牙【机场推荐：https://socks.news】22, server: 194.59.5.221, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 亚美尼亚【机场推荐：https://socks.news】23, server: 188.164.159.102, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】24, server: cu.awslcn.info, port: 25284, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】27, server: 183.236.51.38, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 巴西【机场推荐：https://socks.news】28, server: 188.114.97.79, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 荷兰【机场推荐：https://socks.news】29, server: 188.164.248.120, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】30, server: 188.114.99.205, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 美国【机场推荐：https://socks.news】31, server: ru.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: ru.mjt000.com}
+  - {name: 美国【机场推荐：https://socks.news】32, server: 104.21.6.179, port: 443, type: trojan, password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01, sni: uS6-16.890601.xyz, network: ws, ws-opts: {path: /ILLcisbMYUd6MQzxVoMQ, headers: {Host: uS6-16.890601.xyz}}}
+  - {name: 美国【机场推荐：https://socks.news】33, server: 104.21.94.64, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linja05.hwcar.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】34, server: cm1.awslcn.info, port: 25240, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】35, server: sg1.awslcn.info, port: 25283, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
+  - {name: 荷兰【机场推荐：https://socks.news】36, server: 188.42.145.9, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】37, server: hk2.awslcn.info, port: 25242, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】38, server: hk1.awslcn.info, port: 25242, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}}
+  - {name: 美国【机场推荐：https://socks.news】39, server: us7-03.890624.xyz, port: 80, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: us7-03.890624.xyz}}}
+  - {name: 中国【机场推荐：https://socks.news】40, server: okanc.node-is.green, port: 21115, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83}
+  - {name: 中国【机场推荐：https://socks.news】41, server: 103.30.78.24, port: 10295, type: vmess, uuid: 9a948e66-2cad-4064-9585-6c37840c62dc, alterId: 0, cipher: auto, tls: false}
+  - {name: 德国【机场推荐：https://socks.news】42, server: 5.75.195.199, port: 4500, type: vmess, uuid: 89de804d-a4c4-4c00-c647-18c3af1c8c8c, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】43, server: cm.awslcn.info, port: 25258, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】44, server: okanc.node-is.green, port: 21114, type: ss, cipher: aes-256-gcm, password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83}
+  - {name: 俄罗斯【机场推荐：https://socks.news】45, server: 94.247.142.198, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】46, server: 188.114.99.134, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】47, server: cm.awslcn.info, port: 25241, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】48, server: 27.50.48.188, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
+  - {name: 土耳其【机场推荐：https://socks.news】49, server: 84.54.13.30, port: 52807, type: vmess, uuid: 559f2ab2-1b52-4f5b-9e45-7794e6f2648b, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://socks.news】50, server: s5.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.98.224, headers: {Host: 100-68-4-71.s5.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】51, server: s5.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.16.98.166, headers: {Host: 100-150-175-69.s5.db-link02.top}}}
+  - {name: 立陶宛【机场推荐：https://socks.news】52, server: 86.38.214.52, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
+  - {name: 美国【机场推荐：https://socks.news】53, server: s4.db-link02.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.8.26, headers: {Host: 100-145-217-186.s4.db-link02.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】54, server: 188.114.96.5, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 立陶宛【机场推荐：https://socks.news】55, server: 89.116.46.96, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】56, server: cm.awslcn.info, port: 25240, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】57, server: 183.236.51.38, port: 55754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】58, server: hk1.awslcn.info, port: 25244, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}}
+  - {name: 阿塞拜疆【机场推荐：https://socks.news】59, server: 5.10.246.166, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】60, server: cu.awslcn.info, port: 25279, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】61, server: cu.awslcn.info, port: 25277, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
+  - {name: 美国【机场推荐：https://socks.news】62, server: s5.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.19.220.104, headers: {Host: 100-85-25-119.s5.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】63, server: 172.67.161.77, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 美国【机场推荐：https://socks.news】64, server: 172.67.220.83, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linja05.hwcar.sbs}}}
+  - {name: 美国【机场推荐：https://socks.news】65, server: s4.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.152.253, headers: {Host: 100-21-178-246.s4.db-link02.top}}}
+  - {name: 中国【机场推荐：https://socks.news】66, server: sg1.awslcn.info, port: 25243, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】67, server: 120.232.153.123, port: 51052, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://socks.news】68, server: us10-04.852224.ggff.net, port: 443, type: vmess, uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /SNwNdunw28lVztopw90eoXel, headers: {Host: us10-04.852224.ggff.net}}}
+  - {name: 巴西【机场推荐：https://socks.news】69, server: 188.114.96.2, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 日本【机场推荐：https://socks.news】70, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA}
+  - {name: 美国【机场推荐：https://socks.news】71, server: 134.195.211.116, port: 21018, type: vmess, uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 中国【机场推荐：https://socks.news】72, server: 45.205.0.22, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 美国【机场推荐：https://socks.news】73, server: us10-09.852224.ggff.net, port: 443, type: vmess, uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /SNwNdunw28lVztopw90eoXel, headers: {Host: us10-09.852224.ggff.net}}}
+  - {name: 巴西【机场推荐：https://socks.news】74, server: 188.114.97.3, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】75, server: sg1.awslcn.info, port: 25245, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
+  - {name: 荷兰【机场推荐：https://socks.news】76, server: hms26.xpengmotors.sbs, port: 443, type: vmess, uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms26.xpengmotors.sbs}}}
+  - {name: 西班牙【机场推荐：https://socks.news】77, server: 212.192.12.56, port: 21036, type: vmess, uuid: f3273718-a30d-4a75-8921-e73f0415e277, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 美国【机场推荐：https://socks.news】78, server: www.visa.com.tw, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.insbot.filegear-sg.me}}}
+  - {name: 中国【机场推荐：https://socks.news】79, server: 154.197.75.81, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】80, server: csuzhou01.1cooldns.com, port: 42303, type: trojan, password: VMhGp5wEIyCDf90T, sni: hk06.run.place}
+  - {name: 美国【机场推荐：https://socks.news】81, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://socks.news】82, server: Us7-03.890624.Xyz, port: 443, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: us7-03.890624.xyz}}}
+  - {name: 中国【机场推荐：https://socks.news】83, server: agaungzhou01.bumbleshrimp.com, port: 13483, type: ss, cipher: aes-128-gcm, password: VMhGp5wEIyCDf90T}
+  - {name: 美国【机场推荐：https://socks.news】84, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.114.165, headers: {Host: 100-9-89-92.s2.db-link02.top}}}
+  - {name: 中国【机场推荐：https://socks.news】85, server: 120.198.71.216, port: 40059, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】86, server: 120.198.71.214, port: 34093, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】87, server: 183.236.51.38, port: 59554, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 斯洛文尼亚【机场推荐：https://socks.news】88, server: 92.53.188.185, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】89, server: 188.114.97.7, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】90, server: cm.awslcn.info, port: 25289, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
+  - {name: 美国【机场推荐：https://socks.news】91, server: s4.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.19.97.91, headers: {Host: 100-187-244-205.s4.db-link02.top}}}
+  - {name: 中国【机场推荐：https://socks.news】92, server: 120.232.153.40, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 中国【机场推荐：https://socks.news】93, server: cm1.awslcn.info, port: 25216, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】94, server: cu.awslcn.info, port: 25278, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
+  - {name: 立陶宛【机场推荐：https://socks.news】95, server: 89.116.180.69, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】96, server: 183.236.51.38, port: 51039, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 印度【机场推荐：https://socks.news】97, server: 14.102.229.82, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 美国【机场推荐：https://socks.news】98, server: s5.db-link02.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.19.172, headers: {Host: 100-196-90-59.s5.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】99, server: uS7-07.890606.xYZ, port: 80, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: uS7-07.890606.xYZ}}}
+  - {name: 俄罗斯【机场推荐：https://socks.news】100, server: 77.232.140.180, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenvws, headers: {Host: lax1.ibgfw.top}}}
+  - {name: 中国【机场推荐：https://socks.news】101, server: cu.awslcn.info, port: 25285, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
+  - {name: 中国【机场推荐：https://socks.news】102, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://socks.news】103, server: 104.21.51.208, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】104, server: 120.198.71.219, port: 51095, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国【机场推荐：https://socks.news】105, server: 172.67.196.112, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 中国【机场推荐：https://socks.news】106, server: sg1.awslcn.info, port: 25221, type: vmess, uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
+  - {name: 美国【机场推荐：https://socks.news】107, server: US7-03.890624.xYz, port: 443, type: vmess, uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /bua2hMcbA8wMzbGFtV, headers: {Host: US7-03.890624.xYz}}}
+  - {name: 美国【机场推荐：https://socks.news】108, server: s4.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.239.131, headers: {Host: 100-128-12-180.s4.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】109, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.21.83.57, headers: {Host: 100-4-20-123.s2.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】110, server: s4.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.119.148, headers: {Host: 100-215-157-195.s4.db-link02.top}}}
+  - {name: 美国【机场推荐：https://socks.news】111, server: 172.67.179.199, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
+  - {name: 俄罗斯【机场推荐：https://socks.news】112, server: 46.254.92.45, port: 8443, type: vmess, uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dyajvws, headers: {Host: lax2.ibgfw.top}}}
+  - {name: 英国【机场推荐：https://socks.news】113, server: 18.133.54.187, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 美国【机场推荐：https://socks.news】114, server: s4.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.238.226, headers: {Host: 100-217-184-172.s4.db-link02.top}}}
+  - {name: 中国【机场推荐：https://socks.news】115, server: vt-bana2-cn-11.ghpgwqswodgzv.com, port: 40021, type: trojan, password: a38c9e28-9960-4e31-9f18-ed2495a756aa, sni: vt-bana2-cn-11.ghpgwqswodgzv.com, network: ws, ws-opts: {path: /dl_media, headers: {Host: vt-bana2-cn-11.ghpgwqswodgzv.com}}}
+  - {name: 美国【机场推荐：https://socks.news】116, server: s5.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.18.75.85, headers: {Host: 100-235-225-209.s5.db-link02.top}}}
+  - {name: 巴西【机场推荐：https://socks.news】117, server: 188.114.96.6, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 节点日期：03-28
-      - 中国【机场推荐：https://socks.news】5
-      - 中国【机场推荐：https://socks.news】38
-      - 中国【机场推荐：https://socks.news】17
-      - 中国【机场推荐：https://socks.news】33
-      - 中国【机场推荐：https://socks.news】7
-      - 中国【机场推荐：https://socks.news】26
-      - 中国【机场推荐：https://socks.news】30
-      - 中国【机场推荐：https://socks.news】19
-      - 中国【机场推荐：https://socks.news】32
-      - 中国【机场推荐：https://socks.news】29
-      - 中国【机场推荐：https://socks.news】21
-      - 中国【机场推荐：https://socks.news】6
+      - 节点日期：03-30
       - 中国【机场推荐：https://socks.news】2
-      - 中国【机场推荐：https://socks.news】11
-      - 中国【机场推荐：https://socks.news】43
+      - 美国【机场推荐：https://socks.news】3
+      - 巴西【机场推荐：https://socks.news】4
+      - 中国【机场推荐：https://socks.news】5
+      - 中国【机场推荐：https://socks.news】6
+      - 巴西【机场推荐：https://socks.news】7
+      - 美国【机场推荐：https://socks.news】8
+      - 中国【机场推荐：https://socks.news】9
+      - 西班牙【机场推荐：https://socks.news】10
+      - 巴西【机场推荐：https://socks.news】11
+      - 美国【机场推荐：https://socks.news】12
+      - 俄罗斯【机场推荐：https://socks.news】13
+      - 卢森堡【机场推荐：https://socks.news】14
+      - 俄罗斯【机场推荐：https://socks.news】15
+      - 英国【机场推荐：https://socks.news】16
+      - 美国【机场推荐：https://socks.news】17
       - 中国【机场推荐：https://socks.news】18
-      - 中国【机场推荐：https://socks.news】42
+      - 巴西【机场推荐：https://socks.news】19
+      - 中国【机场推荐：https://socks.news】20
+      - 中国【机场推荐：https://socks.news】21
+      - 西班牙【机场推荐：https://socks.news】22
+      - 亚美尼亚【机场推荐：https://socks.news】23
+      - 中国【机场推荐：https://socks.news】24
+      - 中国【机场推荐：https://socks.news】27
+      - 巴西【机场推荐：https://socks.news】28
+      - 荷兰【机场推荐：https://socks.news】29
+      - 巴西【机场推荐：https://socks.news】30
+      - 美国【机场推荐：https://socks.news】31
+      - 美国【机场推荐：https://socks.news】32
+      - 美国【机场推荐：https://socks.news】33
+      - 中国【机场推荐：https://socks.news】34
+      - 中国【机场推荐：https://socks.news】35
+      - 荷兰【机场推荐：https://socks.news】36
+      - 中国【机场推荐：https://socks.news】37
+      - 中国【机场推荐：https://socks.news】38
+      - 美国【机场推荐：https://socks.news】39
+      - 中国【机场推荐：https://socks.news】40
       - 中国【机场推荐：https://socks.news】41
-      - 中国【机场推荐：https://socks.news】28
+      - 德国【机场推荐：https://socks.news】42
+      - 中国【机场推荐：https://socks.news】43
+      - 中国【机场推荐：https://socks.news】44
+      - 俄罗斯【机场推荐：https://socks.news】45
+      - 巴西【机场推荐：https://socks.news】46
+      - 中国【机场推荐：https://socks.news】47
+      - 中国【机场推荐：https://socks.news】48
+      - 土耳其【机场推荐：https://socks.news】49
+      - 美国【机场推荐：https://socks.news】50
+      - 美国【机场推荐：https://socks.news】51
+      - 立陶宛【机场推荐：https://socks.news】52
+      - 美国【机场推荐：https://socks.news】53
+      - 巴西【机场推荐：https://socks.news】54
+      - 立陶宛【机场推荐：https://socks.news】55
+      - 中国【机场推荐：https://socks.news】56
+      - 中国【机场推荐：https://socks.news】57
+      - 中国【机场推荐：https://socks.news】58
+      - 阿塞拜疆【机场推荐：https://socks.news】59
+      - 中国【机场推荐：https://socks.news】60
+      - 中国【机场推荐：https://socks.news】61
+      - 美国【机场推荐：https://socks.news】62
+      - 美国【机场推荐：https://socks.news】63
+      - 美国【机场推荐：https://socks.news】64
+      - 美国【机场推荐：https://socks.news】65
+      - 中国【机场推荐：https://socks.news】66
+      - 中国【机场推荐：https://socks.news】67
+      - 美国【机场推荐：https://socks.news】68
+      - 巴西【机场推荐：https://socks.news】69
+      - 日本【机场推荐：https://socks.news】70
+      - 美国【机场推荐：https://socks.news】71
+      - 中国【机场推荐：https://socks.news】72
+      - 美国【机场推荐：https://socks.news】73
+      - 巴西【机场推荐：https://socks.news】74
+      - 中国【机场推荐：https://socks.news】75
+      - 荷兰【机场推荐：https://socks.news】76
+      - 西班牙【机场推荐：https://socks.news】77
+      - 美国【机场推荐：https://socks.news】78
+      - 中国【机场推荐：https://socks.news】79
+      - 中国【机场推荐：https://socks.news】80
+      - 美国【机场推荐：https://socks.news】81
+      - 美国【机场推荐：https://socks.news】82
+      - 中国【机场推荐：https://socks.news】83
+      - 美国【机场推荐：https://socks.news】84
+      - 中国【机场推荐：https://socks.news】85
+      - 中国【机场推荐：https://socks.news】86
+      - 中国【机场推荐：https://socks.news】87
+      - 斯洛文尼亚【机场推荐：https://socks.news】88
+      - 巴西【机场推荐：https://socks.news】89
+      - 中国【机场推荐：https://socks.news】90
+      - 美国【机场推荐：https://socks.news】91
+      - 中国【机场推荐：https://socks.news】92
+      - 中国【机场推荐：https://socks.news】93
+      - 中国【机场推荐：https://socks.news】94
+      - 立陶宛【机场推荐：https://socks.news】95
+      - 中国【机场推荐：https://socks.news】96
+      - 印度【机场推荐：https://socks.news】97
+      - 美国【机场推荐：https://socks.news】98
+      - 美国【机场推荐：https://socks.news】99
+      - 俄罗斯【机场推荐：https://socks.news】100
+      - 中国【机场推荐：https://socks.news】101
+      - 中国【机场推荐：https://socks.news】102
+      - 美国【机场推荐：https://socks.news】103
+      - 中国【机场推荐：https://socks.news】104
+      - 美国【机场推荐：https://socks.news】105
+      - 中国【机场推荐：https://socks.news】106
+      - 美国【机场推荐：https://socks.news】107
+      - 美国【机场推荐：https://socks.news】108
+      - 美国【机场推荐：https://socks.news】109
+      - 美国【机场推荐：https://socks.news】110
+      - 美国【机场推荐：https://socks.news】111
+      - 俄罗斯【机场推荐：https://socks.news】112
+      - 英国【机场推荐：https://socks.news】113
+      - 美国【机场推荐：https://socks.news】114
+      - 中国【机场推荐：https://socks.news】115
+      - 美国【机场推荐：https://socks.news】116
+      - 巴西【机场推荐：https://socks.news】117
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点日期：03-28
-      - 中国【机场推荐：https://socks.news】5
-      - 中国【机场推荐：https://socks.news】38
-      - 中国【机场推荐：https://socks.news】17
-      - 中国【机场推荐：https://socks.news】33
-      - 中国【机场推荐：https://socks.news】7
-      - 中国【机场推荐：https://socks.news】26
-      - 中国【机场推荐：https://socks.news】30
-      - 中国【机场推荐：https://socks.news】19
-      - 中国【机场推荐：https://socks.news】32
-      - 中国【机场推荐：https://socks.news】29
-      - 中国【机场推荐：https://socks.news】21
-      - 中国【机场推荐：https://socks.news】6
+      - 节点日期：03-30
       - 中国【机场推荐：https://socks.news】2
-      - 中国【机场推荐：https://socks.news】11
-      - 中国【机场推荐：https://socks.news】43
+      - 美国【机场推荐：https://socks.news】3
+      - 巴西【机场推荐：https://socks.news】4
+      - 中国【机场推荐：https://socks.news】5
+      - 中国【机场推荐：https://socks.news】6
+      - 巴西【机场推荐：https://socks.news】7
+      - 美国【机场推荐：https://socks.news】8
+      - 中国【机场推荐：https://socks.news】9
+      - 西班牙【机场推荐：https://socks.news】10
+      - 巴西【机场推荐：https://socks.news】11
+      - 美国【机场推荐：https://socks.news】12
+      - 俄罗斯【机场推荐：https://socks.news】13
+      - 卢森堡【机场推荐：https://socks.news】14
+      - 俄罗斯【机场推荐：https://socks.news】15
+      - 英国【机场推荐：https://socks.news】16
+      - 美国【机场推荐：https://socks.news】17
       - 中国【机场推荐：https://socks.news】18
-      - 中国【机场推荐：https://socks.news】42
+      - 巴西【机场推荐：https://socks.news】19
+      - 中国【机场推荐：https://socks.news】20
+      - 中国【机场推荐：https://socks.news】21
+      - 西班牙【机场推荐：https://socks.news】22
+      - 亚美尼亚【机场推荐：https://socks.news】23
+      - 中国【机场推荐：https://socks.news】24
+      - 中国【机场推荐：https://socks.news】27
+      - 巴西【机场推荐：https://socks.news】28
+      - 荷兰【机场推荐：https://socks.news】29
+      - 巴西【机场推荐：https://socks.news】30
+      - 美国【机场推荐：https://socks.news】31
+      - 美国【机场推荐：https://socks.news】32
+      - 美国【机场推荐：https://socks.news】33
+      - 中国【机场推荐：https://socks.news】34
+      - 中国【机场推荐：https://socks.news】35
+      - 荷兰【机场推荐：https://socks.news】36
+      - 中国【机场推荐：https://socks.news】37
+      - 中国【机场推荐：https://socks.news】38
+      - 美国【机场推荐：https://socks.news】39
+      - 中国【机场推荐：https://socks.news】40
       - 中国【机场推荐：https://socks.news】41
-      - 中国【机场推荐：https://socks.news】28
+      - 德国【机场推荐：https://socks.news】42
+      - 中国【机场推荐：https://socks.news】43
+      - 中国【机场推荐：https://socks.news】44
+      - 俄罗斯【机场推荐：https://socks.news】45
+      - 巴西【机场推荐：https://socks.news】46
+      - 中国【机场推荐：https://socks.news】47
+      - 中国【机场推荐：https://socks.news】48
+      - 土耳其【机场推荐：https://socks.news】49
+      - 美国【机场推荐：https://socks.news】50
+      - 美国【机场推荐：https://socks.news】51
+      - 立陶宛【机场推荐：https://socks.news】52
+      - 美国【机场推荐：https://socks.news】53
+      - 巴西【机场推荐：https://socks.news】54
+      - 立陶宛【机场推荐：https://socks.news】55
+      - 中国【机场推荐：https://socks.news】56
+      - 中国【机场推荐：https://socks.news】57
+      - 中国【机场推荐：https://socks.news】58
+      - 阿塞拜疆【机场推荐：https://socks.news】59
+      - 中国【机场推荐：https://socks.news】60
+      - 中国【机场推荐：https://socks.news】61
+      - 美国【机场推荐：https://socks.news】62
+      - 美国【机场推荐：https://socks.news】63
+      - 美国【机场推荐：https://socks.news】64
+      - 美国【机场推荐：https://socks.news】65
+      - 中国【机场推荐：https://socks.news】66
+      - 中国【机场推荐：https://socks.news】67
+      - 美国【机场推荐：https://socks.news】68
+      - 巴西【机场推荐：https://socks.news】69
+      - 日本【机场推荐：https://socks.news】70
+      - 美国【机场推荐：https://socks.news】71
+      - 中国【机场推荐：https://socks.news】72
+      - 美国【机场推荐：https://socks.news】73
+      - 巴西【机场推荐：https://socks.news】74
+      - 中国【机场推荐：https://socks.news】75
+      - 荷兰【机场推荐：https://socks.news】76
+      - 西班牙【机场推荐：https://socks.news】77
+      - 美国【机场推荐：https://socks.news】78
+      - 中国【机场推荐：https://socks.news】79
+      - 中国【机场推荐：https://socks.news】80
+      - 美国【机场推荐：https://socks.news】81
+      - 美国【机场推荐：https://socks.news】82
+      - 中国【机场推荐：https://socks.news】83
+      - 美国【机场推荐：https://socks.news】84
+      - 中国【机场推荐：https://socks.news】85
+      - 中国【机场推荐：https://socks.news】86
+      - 中国【机场推荐：https://socks.news】87
+      - 斯洛文尼亚【机场推荐：https://socks.news】88
+      - 巴西【机场推荐：https://socks.news】89
+      - 中国【机场推荐：https://socks.news】90
+      - 美国【机场推荐：https://socks.news】91
+      - 中国【机场推荐：https://socks.news】92
+      - 中国【机场推荐：https://socks.news】93
+      - 中国【机场推荐：https://socks.news】94
+      - 立陶宛【机场推荐：https://socks.news】95
+      - 中国【机场推荐：https://socks.news】96
+      - 印度【机场推荐：https://socks.news】97
+      - 美国【机场推荐：https://socks.news】98
+      - 美国【机场推荐：https://socks.news】99
+      - 俄罗斯【机场推荐：https://socks.news】100
+      - 中国【机场推荐：https://socks.news】101
+      - 中国【机场推荐：https://socks.news】102
+      - 美国【机场推荐：https://socks.news】103
+      - 中国【机场推荐：https://socks.news】104
+      - 美国【机场推荐：https://socks.news】105
+      - 中国【机场推荐：https://socks.news】106
+      - 美国【机场推荐：https://socks.news】107
+      - 美国【机场推荐：https://socks.news】108
+      - 美国【机场推荐：https://socks.news】109
+      - 美国【机场推荐：https://socks.news】110
+      - 美国【机场推荐：https://socks.news】111
+      - 俄罗斯【机场推荐：https://socks.news】112
+      - 英国【机场推荐：https://socks.news】113
+      - 美国【机场推荐：https://socks.news】114
+      - 中国【机场推荐：https://socks.news】115
+      - 美国【机场推荐：https://socks.news】116
+      - 巴西【机场推荐：https://socks.news】117
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,26 +379,121 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 节点日期：03-28
-      - 中国【机场推荐：https://socks.news】5
-      - 中国【机场推荐：https://socks.news】38
-      - 中国【机场推荐：https://socks.news】17
-      - 中国【机场推荐：https://socks.news】33
-      - 中国【机场推荐：https://socks.news】7
-      - 中国【机场推荐：https://socks.news】26
-      - 中国【机场推荐：https://socks.news】30
-      - 中国【机场推荐：https://socks.news】19
-      - 中国【机场推荐：https://socks.news】32
-      - 中国【机场推荐：https://socks.news】29
-      - 中国【机场推荐：https://socks.news】21
-      - 中国【机场推荐：https://socks.news】6
+      - 节点日期：03-30
       - 中国【机场推荐：https://socks.news】2
-      - 中国【机场推荐：https://socks.news】11
-      - 中国【机场推荐：https://socks.news】43
+      - 美国【机场推荐：https://socks.news】3
+      - 巴西【机场推荐：https://socks.news】4
+      - 中国【机场推荐：https://socks.news】5
+      - 中国【机场推荐：https://socks.news】6
+      - 巴西【机场推荐：https://socks.news】7
+      - 美国【机场推荐：https://socks.news】8
+      - 中国【机场推荐：https://socks.news】9
+      - 西班牙【机场推荐：https://socks.news】10
+      - 巴西【机场推荐：https://socks.news】11
+      - 美国【机场推荐：https://socks.news】12
+      - 俄罗斯【机场推荐：https://socks.news】13
+      - 卢森堡【机场推荐：https://socks.news】14
+      - 俄罗斯【机场推荐：https://socks.news】15
+      - 英国【机场推荐：https://socks.news】16
+      - 美国【机场推荐：https://socks.news】17
       - 中国【机场推荐：https://socks.news】18
-      - 中国【机场推荐：https://socks.news】42
+      - 巴西【机场推荐：https://socks.news】19
+      - 中国【机场推荐：https://socks.news】20
+      - 中国【机场推荐：https://socks.news】21
+      - 西班牙【机场推荐：https://socks.news】22
+      - 亚美尼亚【机场推荐：https://socks.news】23
+      - 中国【机场推荐：https://socks.news】24
+      - 中国【机场推荐：https://socks.news】27
+      - 巴西【机场推荐：https://socks.news】28
+      - 荷兰【机场推荐：https://socks.news】29
+      - 巴西【机场推荐：https://socks.news】30
+      - 美国【机场推荐：https://socks.news】31
+      - 美国【机场推荐：https://socks.news】32
+      - 美国【机场推荐：https://socks.news】33
+      - 中国【机场推荐：https://socks.news】34
+      - 中国【机场推荐：https://socks.news】35
+      - 荷兰【机场推荐：https://socks.news】36
+      - 中国【机场推荐：https://socks.news】37
+      - 中国【机场推荐：https://socks.news】38
+      - 美国【机场推荐：https://socks.news】39
+      - 中国【机场推荐：https://socks.news】40
       - 中国【机场推荐：https://socks.news】41
-      - 中国【机场推荐：https://socks.news】28
+      - 德国【机场推荐：https://socks.news】42
+      - 中国【机场推荐：https://socks.news】43
+      - 中国【机场推荐：https://socks.news】44
+      - 俄罗斯【机场推荐：https://socks.news】45
+      - 巴西【机场推荐：https://socks.news】46
+      - 中国【机场推荐：https://socks.news】47
+      - 中国【机场推荐：https://socks.news】48
+      - 土耳其【机场推荐：https://socks.news】49
+      - 美国【机场推荐：https://socks.news】50
+      - 美国【机场推荐：https://socks.news】51
+      - 立陶宛【机场推荐：https://socks.news】52
+      - 美国【机场推荐：https://socks.news】53
+      - 巴西【机场推荐：https://socks.news】54
+      - 立陶宛【机场推荐：https://socks.news】55
+      - 中国【机场推荐：https://socks.news】56
+      - 中国【机场推荐：https://socks.news】57
+      - 中国【机场推荐：https://socks.news】58
+      - 阿塞拜疆【机场推荐：https://socks.news】59
+      - 中国【机场推荐：https://socks.news】60
+      - 中国【机场推荐：https://socks.news】61
+      - 美国【机场推荐：https://socks.news】62
+      - 美国【机场推荐：https://socks.news】63
+      - 美国【机场推荐：https://socks.news】64
+      - 美国【机场推荐：https://socks.news】65
+      - 中国【机场推荐：https://socks.news】66
+      - 中国【机场推荐：https://socks.news】67
+      - 美国【机场推荐：https://socks.news】68
+      - 巴西【机场推荐：https://socks.news】69
+      - 日本【机场推荐：https://socks.news】70
+      - 美国【机场推荐：https://socks.news】71
+      - 中国【机场推荐：https://socks.news】72
+      - 美国【机场推荐：https://socks.news】73
+      - 巴西【机场推荐：https://socks.news】74
+      - 中国【机场推荐：https://socks.news】75
+      - 荷兰【机场推荐：https://socks.news】76
+      - 西班牙【机场推荐：https://socks.news】77
+      - 美国【机场推荐：https://socks.news】78
+      - 中国【机场推荐：https://socks.news】79
+      - 中国【机场推荐：https://socks.news】80
+      - 美国【机场推荐：https://socks.news】81
+      - 美国【机场推荐：https://socks.news】82
+      - 中国【机场推荐：https://socks.news】83
+      - 美国【机场推荐：https://socks.news】84
+      - 中国【机场推荐：https://socks.news】85
+      - 中国【机场推荐：https://socks.news】86
+      - 中国【机场推荐：https://socks.news】87
+      - 斯洛文尼亚【机场推荐：https://socks.news】88
+      - 巴西【机场推荐：https://socks.news】89
+      - 中国【机场推荐：https://socks.news】90
+      - 美国【机场推荐：https://socks.news】91
+      - 中国【机场推荐：https://socks.news】92
+      - 中国【机场推荐：https://socks.news】93
+      - 中国【机场推荐：https://socks.news】94
+      - 立陶宛【机场推荐：https://socks.news】95
+      - 中国【机场推荐：https://socks.news】96
+      - 印度【机场推荐：https://socks.news】97
+      - 美国【机场推荐：https://socks.news】98
+      - 美国【机场推荐：https://socks.news】99
+      - 俄罗斯【机场推荐：https://socks.news】100
+      - 中国【机场推荐：https://socks.news】101
+      - 中国【机场推荐：https://socks.news】102
+      - 美国【机场推荐：https://socks.news】103
+      - 中国【机场推荐：https://socks.news】104
+      - 美国【机场推荐：https://socks.news】105
+      - 中国【机场推荐：https://socks.news】106
+      - 美国【机场推荐：https://socks.news】107
+      - 美国【机场推荐：https://socks.news】108
+      - 美国【机场推荐：https://socks.news】109
+      - 美国【机场推荐：https://socks.news】110
+      - 美国【机场推荐：https://socks.news】111
+      - 俄罗斯【机场推荐：https://socks.news】112
+      - 英国【机场推荐：https://socks.news】113
+      - 美国【机场推荐：https://socks.news】114
+      - 中国【机场推荐：https://socks.news】115
+      - 美国【机场推荐：https://socks.news】116
+      - 巴西【机场推荐：https://socks.news】117
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -440,7 +820,6 @@ rules:
   - DOMAIN-SUFFIX,mobclix.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobgi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mobisage.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,mobvista.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moogos.com,🛑 全球拦截
   - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
   - DOMAIN-SUFFIX,moquanad.com,🛑 全球拦截
@@ -450,7 +829,6 @@ rules:
   - DOMAIN-SUFFIX,mzy2014.com,🛑 全球拦截
   - DOMAIN-SUFFIX,networkbench.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ninebox.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ntalker.com,🛑 全球拦截
   - DOMAIN-SUFFIX,nylalobghyhirgh.com,🛑 全球拦截
   - DOMAIN-SUFFIX,o2omobi.com,🛑 全球拦截
   - DOMAIN-SUFFIX,oadz.com,🛑 全球拦截
@@ -1842,6 +2220,45 @@ rules:
   - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
+  - DOMAIN-KEYWORD,anthropic,🚀 节点选择
+  - DOMAIN-KEYWORD,claude,🚀 节点选择
+  - DOMAIN-KEYWORD,openai,🚀 节点选择
+  - DOMAIN,ai.google.dev,🚀 节点选择
+  - DOMAIN,api.githubcopilot.com,🚀 节点选择
+  - DOMAIN,api.groq.com,🚀 节点选择
+  - DOMAIN,api.together.xyz,🚀 节点选择
+  - DOMAIN,bard.google.com,🚀 节点选择
+  - DOMAIN,console.groq.com,🚀 节点选择
+  - DOMAIN,copilot-proxy.githubusercontent.com,🚀 节点选择
+  - DOMAIN,gemini.google.com,🚀 节点选择
+  - DOMAIN,generativelanguage.googleapis.com,🚀 节点选择
+  - DOMAIN,sydney.bing.com,🚀 节点选择
+  - DOMAIN-SUFFIX,ai.azure.com,🚀 节点选择
+  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
+  - DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
+  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft,🚀 节点选择
+  - DOMAIN-SUFFIX,copilot.microsoft.com,🚀 节点选择
+  - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
+  - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
+  - DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,grazie.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net,🚀 节点选择
+  - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
+  - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+  - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
+  - DOMAIN-SUFFIX,makersuite.google.com,🚀 节点选择
+  - DOMAIN-SUFFIX,meta.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,mistral.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+  - DOMAIN-SUFFIX,perplexity.ai,🚀 节点选择
+  - DOMAIN-SUFFIX,sora.com,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
@@ -3206,66 +3623,95 @@ rules:
   - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,95516.com,🎯 全球直连
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
-  - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.40.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.209.48.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.210.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.152.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.208.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,8.211.224.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,8.212.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,8.216.0.0/13,🎯 全球直连,no-resolve
   - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,41.222.240.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,41.223.119.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,43.242.168.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
-  - IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
-  - IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.252.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,47.254.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.75.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.64.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.82.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.91.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.89.100.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.90.0.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.91.128.0/17,🎯 全球直连,no-resolve
+  - IP-CIDR,47.92.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,47.240.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.242.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,47.244.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.5.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.16.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,47.246.65.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,72.254.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,103.38.56.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.79.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.80.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.84.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.88.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.93.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.94.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.102.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.104.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.112.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,116.251.124.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,139.95.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,161.117.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,163.181.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,170.33.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,198.11.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,205.204.96.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,19.28.0.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,149.129.64.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.32.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,163.181.40.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,170.33.0.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.141.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,198.11.184.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.104.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.117.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.122.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,205.204.124.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,49.51.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.56.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.60.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.110.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,49.51.112.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.116.50.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,103.231.60.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
-  - IP-CIDR,120.88.56.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.0.0/18,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.64.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.124.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.164.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.168.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.176.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,119.28.224.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,119.29.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
@@ -3273,61 +3719,46 @@ rules:
   - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.32.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.64.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,150.109.96.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,162.62.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,170.106.130.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,203.205.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,210.4.138.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.128.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.132.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,211.152.148.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.128.0/20,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.144.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.158.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.180.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.208.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.212.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.218.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.220.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,203.205.248.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,45.113.192.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,63.217.23.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,45.113.194.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,104.193.88.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
   - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,119.63.192.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,180.76.0.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,185.10.104.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,185.10.105.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
-  - IP-CIDR,78.101.192.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,78.101.224.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,81.52.161.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,85.97.220.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.69.140.0/23,🎯 全球直连,no-resolve
   - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.96.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.128.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.136.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.141.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.142.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.243.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.244.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
-  - IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
   - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
@@ -3356,37 +3787,7 @@ rules:
   - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.192.0/20,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.223.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,159.138.224.0/19,🎯 全球直连,no-resolve
-  - IP-CIDR,168.195.92.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,185.176.76.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
-  - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,159.138.128.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
@@ -3410,7 +3811,6 @@ rules:
   - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
   - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
-  - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
   - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
@@ -3424,7 +3824,11 @@ rules:
   - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
-  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.192.0/24,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.194.0/23,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.196.0/22,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.200.0/21,🎯 全球直连,no-resolve
+  - IP-CIDR,101.198.208.0/20,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
