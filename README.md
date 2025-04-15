@@ -6,4 +6,4 @@ download clash config  by github action
 
 GithubAction逻辑：下载yaml到这个repo，判断有更新则推送
 
-在clashx里添加这个仓库的配置链接 比如:[https://github.com/IrisGitHub/freeclashconfig/blob/main/config.yaml](https://github.com/IrisGitHub/freeclashconfig/blob/main/config.yaml)
+在clashx里添加这个仓库的配置链接 比如:[https://github.com/jiangjingscom/freeclashconfig/blob/main/config.yaml](https://github.com/jiangjingscom/freeclashconfig/blob/main/config.yaml)
